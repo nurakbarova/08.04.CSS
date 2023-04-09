@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    padding: 60px auto;
+    background-color: rgb(16, 137, 255);
+    height: 80px;
+    position: relative;
+    width: 100%;
+
+}
+
+div ul li a {
+    color: white;
+    position: absolute;
+    top: 31px;
+}
+
+div ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero_sec {
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/waterboat/images/hero_2.jpg.webp);
+}
+
+.hero_sec_div {
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+    font-size: 19px;
+}
+
+.hero_sec_btn {
+    margin-top: 10px;
+    border: none;
+    font-size: 14px;
+    height: 38px;
+    color: white;
+    background-color: rgb(16, 137, 255);
+}
+
+.hero_sec_btn :hover {
+    color: #fff;
+    background-color: #006fdc !important;
+    border-color: #006fdc;
+}
+
+.main_sec_div {
+    height: 300px;
+    width: 100%;
+}
+
+.main_img {
+    height: 100%;
+}
+
+.main_sec {
+    position: relative;
+}
+
+.main_sec_div {
+    justify-content: space-evenly;
+    gap: 1px;
+    display: flex;
+    margin-top: 121px;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+.main_sec_div_tittle {
+    text-align: center;
+    padding-top: 65px;
+    /* display: flex; */
+    justify-content: start;
+    align-self: start;
+}
+
+.main_sec_div_tittle :first-child {
+    color: blue;
+    position: absolute;
+    top: 6px;
+    font-family: "Dancing Script", sans-serif;
+}
+
+.main_sec_div_tittle h3 {
+    position: absolute;
+    top: 10%;
+}
+
+.main_sec_div_btn {
+    margin-top: 10px;
+    border: none;
+    font-size: 14px;
+    height: 38px;
+    color: white;
+    background-color: rgb(16, 137, 255);
+}
+
+.about_div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-left: 57px;
+}
+.about_div i{
+    color: #006fdc;
+    font-size: 35px;
+    text-align: center;
+}
+.about_div{
+    font-style: italic;
+}
